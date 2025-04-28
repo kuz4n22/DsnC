@@ -1,4 +1,5 @@
-hdri: artist_workshop_4k.hdr
-render engine: cyclees
-samples number: 4096 
-composition: idk
+hdri: artist_workshop_4k.hdr,
+render engine: cycles; angle: 0d; strength: 0.8,
+denoise: denoiser: automatic,
+samples number: 512 ,
+composition: копозиция центральная, кадр сбалансирован,
